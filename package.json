@@ -10,5 +10,7 @@
   "dependencies": {
   },
   "devDependencies": {
+    "jest": "^23.2.0",
+    "yarn": "^1.7.0"
   }
 }
