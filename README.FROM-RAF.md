@@ -19,4 +19,5 @@ although ordering would aid in prioritising such debt.
 * I have a branch titled BRANCH_WITH_BROKEN_BABEL_PRESETS where I was trying to pollyfill for IE11
 * Due to issues the spread operator and babel, I've left this on a branch. 
 * I considered using Obect.assign, however it's better to fix the problem and did not would to give a false impression of my appraoch
- 
+* I seem to have created the project using node 6; have typically been using 8, but it onlys seems to run with 6 currently
+* Would investigate and upgrade otherwise.
