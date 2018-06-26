@@ -1,5 +1,6 @@
 # Overview from the candidates perspective
 
+## Overview
 In order to complete this piece given my surrounding 
 time constraints, I've had to incurr some debt in completing this 
 solution. Points worth noting, in no particularly order;
@@ -21,3 +22,10 @@ although ordering would aid in prioritising such debt.
 * I considered using Obect.assign, however it's better to fix the problem and did not would to give a false impression of my appraoch
 * I seem to have created the project using node 6; have typically been using 8, but it onlys seems to run with 6 currently
 * Would investigate and upgrade otherwise.
+
+## Tools
+
+* ./build.sh to build a container an alpine container at node 6
+* ./setup.sh to flip to the correct node version with nvm (assumes you are using nvm)
+* ./startServer.sh - wrapper for nvm use && npm start
+
