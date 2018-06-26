@@ -22,7 +22,8 @@ although ordering would aid in prioritising such debt.
 * I considered using Obect.assign, however it's better to fix the problem and did not would to give a false impression of my appraoch
 * I seem to have created the project using node 6; have typically been using 8, but it onlys seems to run with 6 currently
 * Would investigate and upgrade otherwise.
-
+* In terms of language I chose to go with 'Artist' over 'Band'
+* Changes in business langauge are things I would discuss with the business; the underlying reason was extensibilily of business domain, mindset and model. This would usually involte PO and team discussion.
 ## Tools
 
 * ./build.sh to build a container an alpine container at node 6
