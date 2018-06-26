@@ -30,7 +30,7 @@ class ArtistContainer extends React.Component {
      * @return {component} ArtistList dom
      */
     render() {
-        debugger;
+        //debugger;
         return (
             <ul>
                 <ArtistList artists={this.props.artists}/>
@@ -46,7 +46,7 @@ class ArtistContainer extends React.Component {
  * @return {object} representing new props
  */
 function mapStateToProps(state={}) {
-    debugger;
+    //debugger;
     return {
         artists: state.artists,
     };
@@ -58,7 +58,7 @@ function mapStateToProps(state={}) {
  * @return {Function|Object|*} mapping table
  */
 function mapDispatchToProps(dispatch) {
-    return {                          y fil
+    return {
         artistData: bindActionCreators(actions, dispatch),
     };
 }

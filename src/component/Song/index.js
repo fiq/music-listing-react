@@ -1,9 +1,10 @@
 import React from 'react';
+import './Song.css';
 export default class Song extends React.Component{
     render() {
         return (
             <li>
-                {this.props.name}
+                <div className="Song">{this.props.name}</div>
             </li>
         );
     }

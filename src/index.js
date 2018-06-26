@@ -7,7 +7,7 @@ import {Provider} from 'react-redux';
 import {configureStore} from './store'; /* eslint-disable */
 
 const store = configureStore();
-debugger;
+//debugger;
 ReactDOM.render(
     <Provider store={store}>
         <ArtistContainer />

@@ -4,7 +4,7 @@ import Album from '../Album';
 export default class AlbumList extends React.Component {
     renderAlbums(){
         return Object.keys(this.props.albums).map((album) => {
-            debugger;
+//            debugger;
             return (
                 <Album
                     key={album}
