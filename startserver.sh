@@ -1,2 +1,2 @@
 #/usr/bin/env bash
-nvm use && start
+nvm use && npm start
